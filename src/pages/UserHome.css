@@ -1,0 +1,55 @@
+.userhome-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .userhome-portfolio {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-right: 20px;
+    /* background-image: url('your-background-image.jpg'); Replace with your image URL */
+    background-size: cover; /* Adjust based on your image size */
+    color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Box shadow with a slight transparency */
+  }
+  
+  
+  .userhome-portfolio h1,
+  .userhome-portfolio h2 {
+    margin-bottom: 10px;
+  }
+  .details {
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .details i {
+    margin-right: 5px;
+  }
+  
+  .userhome-loanimage {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .userhome-loanimage img {
+    width: 500px; /* Set the desired width */
+    height: 350px; /* Set the desired height */
+    object-fit: cover; /* Maintain the aspect ratio and cover the container */
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+  }
+  
+  .custom-link{
+    margin-right: 20px;
+  }

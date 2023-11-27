@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.DropdownLabel{
+  position: relative;
+}
+
+.Dropdown {
+  position: absolute;
+  /* margin-top: 10px; */
+  background-color: aquamarine;
+  z-index: 2;
+
+}
+.Dropdown ul {
+  list-style: none;
+}
